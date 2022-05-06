@@ -8,7 +8,6 @@ import ge.ftsu.tsudokujavafx.dataimpl.LocalStorageImpl;
 import java.io.IOException;
 
 public class SudokuBuildLogic {
-    //es metodi igebs sudokuuserinterface klass da avsebs/akavashirebs mas sxva klasebtan
     public static void build(IUserInterfaceContract.View userInterface) throws IOException {
         SudokuGame initialState;
         IStorage storage = new LocalStorageImpl();
